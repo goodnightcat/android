@@ -10,4 +10,9 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
     }
+
+    public void testMethod() throws Exception {
+        String test = null;
+        assertNull("test is null", test);
+    }
 }
