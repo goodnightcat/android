@@ -15,4 +15,8 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         String test = null;
         assertNotNull("test is null", test);
     }
+
+    public void testMethod2() throws Exception {
+        assertEquals(true, false);
+    }
 }
