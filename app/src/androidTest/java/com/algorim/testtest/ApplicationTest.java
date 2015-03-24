@@ -13,6 +13,6 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 
     public void testMethod() throws Exception {
         String test = null;
-        assertNull("test is null", test);
+        assertNotNull("test is null", test);
     }
 }
